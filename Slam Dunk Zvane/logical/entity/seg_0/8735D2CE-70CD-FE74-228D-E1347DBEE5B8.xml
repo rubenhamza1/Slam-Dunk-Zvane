@@ -1,0 +1,110 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8735D2CE-70CD-FE74-228D-E1347DBEE5B8" name="ADRESA KUPCA">
+<createdBy>Ucenik</createdBy>
+<createdTime>2022-01-11 11:24:20 UTC</createdTime>
+<ownerDesignName>Slam Dunk Zvane</ownerDesignName>
+<engineerTo>
+<item key="AA1B5E66-D0CD-2D18-DB95-B2CA07D29A78" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>ADK</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_adresa_kupca" id="C60165A1-24F2-C7D5-D1D5-06D87E5CE660">
+<createdBy>Ucenik</createdBy>
+<createdTime>2022-01-11 11:24:31 UTC</createdTime>
+<ownerDesignName>Slam Dunk Zvane</ownerDesignName>
+<engineerTo>
+<item key="AA1B5E66-D0CD-2D18-DB95-B2CA07D29A78" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ulica" id="11FB6974-D9F1-0659-A825-0B2D241C9929">
+<createdBy>Ucenik</createdBy>
+<createdTime>2022-01-11 11:25:06 UTC</createdTime>
+<ownerDesignName>Slam Dunk Zvane</ownerDesignName>
+<engineerTo>
+<item key="AA1B5E66-D0CD-2D18-DB95-B2CA07D29A78" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="kucni_broj" id="535EC80A-7AB7-35DD-E614-9FA9A8963234">
+<createdBy>Ucenik</createdBy>
+<createdTime>2022-01-11 11:25:33 UTC</createdTime>
+<ownerDesignName>Slam Dunk Zvane</ownerDesignName>
+<engineerTo>
+<item key="AA1B5E66-D0CD-2D18-DB95-B2CA07D29A78" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="broj_igraca" id="EE017B1F-29C3-CF51-17C4-C9AA2F72D1CE">
+<createdBy>Ucenik</createdBy>
+<createdTime>2022-01-11 11:25:56 UTC</createdTime>
+<ownerDesignName>Slam Dunk Zvane</ownerDesignName>
+<engineerTo>
+<item key="AA1B5E66-D0CD-2D18-DB95-B2CA07D29A78" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="popust" id="8E3326BF-5782-5AC5-9AA1-700283B18B96">
+<createdBy>Ucenik</createdBy>
+<createdTime>2022-01-11 11:26:12 UTC</createdTime>
+<ownerDesignName>Slam Dunk Zvane</ownerDesignName>
+<engineerTo>
+<item key="AA1B5E66-D0CD-2D18-DB95-B2CA07D29A78" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_kupac" id="2F2A23DC-8351-E129-79D3-54F38202EE9A">
+<createdBy>Ucenik</createdBy>
+<createdTime>2022-01-25 11:27:34 UTC</createdTime>
+<generatorID>33E5771E-0806-AB9F-0039-E39D68D56722</generatorID>
+<ownerDesignName>Slam Dunk Zvane</ownerDesignName>
+<engineerTo>
+<item key="AA1B5E66-D0CD-2D18-DB95-B2CA07D29A78" value="true"/>
+</engineerTo>
+<referedAttribute>5AA72166-6434-35FA-A2E0-109390CD1614</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="182C0A29-59C4-B28B-578B-B047F398C1B1" name="ADRESA KUPCA PK">
+<createdBy>Ucenik</createdBy>
+<createdTime>2022-01-11 11:24:40 UTC</createdTime>
+<ownerDesignName>Slam Dunk Zvane</ownerDesignName>
+<engineerTo>
+<item key="AA1B5E66-D0CD-2D18-DB95-B2CA07D29A78" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>C60165A1-24F2-C7D5-D1D5-06D87E5CE660</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

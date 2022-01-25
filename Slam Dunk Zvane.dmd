@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Slam Dunk Zvane" id="2EC3FEC7-230C-0070-EACC-530033EB8F8B" version="3.5">
+<createdBy>Ucenik</createdBy>
+<createdTime>2022-01-11 11:05:15 UTC</createdTime>
+<ownerDesignName>Slam Dunk Zvane</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>2EC3FEC7-230C-0070-EACC-530033EB8F8B</designId>
+</OSDM_Design>
